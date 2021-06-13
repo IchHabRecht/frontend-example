@@ -25,3 +25,12 @@ npm install -D webpack@^5.38
 - add a bare `webpack.config.js` webpack configuration file
 
     - add an empty `src/index.js` file
+
+- add npm `build` script to run webpack
+
+    - add `webpack CLI` as dev dependency to be able to run webpack
+
+```
+npm install -D webpack-cli@^4.7
+npm run build
+```
