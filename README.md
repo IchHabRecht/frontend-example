@@ -11,3 +11,13 @@ This is a documentation for my future self how to set up and run a frontend proj
 ```
 npm init
 ```
+
+## *webpack* - a static module bundler for modern JavaScript applications
+
+### Install
+
+- add `webpack` as dev dependency
+
+```
+npm install -D webpack@^5.38
+```
