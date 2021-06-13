@@ -7,4 +7,9 @@ module.exports = {
         path: path.resolve(__dirname, 'public/dist'),
         filename: 'js/[name].dist.js',
     },
+    devServer: {
+        contentBase: path.join(__dirname, 'public'),
+        publicPath: '/dist/',
+        watchContentBase: true,
+    },
 };

@@ -34,3 +34,22 @@ npm install -D webpack@^5.38
 npm install -D webpack-cli@^4.7
 npm run build
 ```
+
+### Install DevServer
+
+Use webpack with a development server that provides live reloading.
+
+- add `webpack-dev-server` as dev dependency
+
+    - adjust `webpack-dev-server` configuration
+
+        - use `public` path as content base and watch for changes
+
+        - serve `webpack` files from `dist` folder
+
+    - add npm `serve` script to run webpack
+
+```
+npm install -D webpack-dev-server@^3.11
+npm run serve
+```
